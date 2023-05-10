@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:"popins", sans-serfif;
+	box-sizing: border-box;
+}
+.header{
+	height:100px;
+	width:100%;
+	padding:0 8%;
+	position: relative;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width:3%;
+}
+.navLinks{
+	padding:28px 0;
+}
+.navLinks li{
+	display:inline-block;
+	margin:0 15px;
+}
+.navLinks li a{
+	text-decoration:none;
+	color:black;
+	padding:5px 0;
+	position:relative;
+	font-size:1.3rem;
+	
+}
+.navLinks li a:after{
+	content:'';
+	background:gold;
+	width:0;
+	height:2px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: width 0.5s;
+}
+.navLinks li a:hover::after{
+	width:100%;
+}
+.btn{
+	background:#FFDAB9;
+	color: black;
+	padding: 10px 30px;
+	border-radius:3px;
+	cursor:pointer;
+}
+.content{
+	padding-top:50px;
+	margin: 0 auto;
+	width:80%;
+
+
+	
+	
+}
+.left{
+	       float:left; 
+	margin: 0 auto;
+	text-align:left;
+}
+.right{
+	       float:right; 
+	margin: 10% auto;
+	text-align:right;
+	
+}
+h2{
+	margin-top:20px;
+}
+p{
+	margin-top:20px;
+	font-size:20px;
+}
+h3{
+	margin-top:20px;
+}
+a{
+text-decoration: none;
+color:black;
+}
+.right h2{
+color:#DEB887;
+	margin-bottom:20px;
+}
+.right p{
+	font-size:17pt;
+}
+.right span{
+	font-size:17pt;	
+}
+.right a{
+		font-size:17pt;
+}
+	

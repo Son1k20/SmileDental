@@ -1,0 +1,153 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:"popins", sans-serfif;
+	box-sizing: border-box;
+}
+.header{
+	height:100px;
+	width:100%;
+	padding:0 8%;
+	position: relative;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width:3%;
+}
+.navLinks{
+	padding:28px 0;
+}
+.navLinks li{
+	display:inline-block;
+	margin:0 15px;
+}
+.navLinks li a{
+	text-decoration:none;
+	color:black;
+	padding:5px 0;
+	position:relative;
+	font-size:1.3rem;
+	
+}
+.navLinks li a:after{
+	content:'';
+	background:gold;
+	width:0;
+	height:2px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: width 0.5s;
+}
+.navLinks li a:hover::after{
+	width:100%;
+}
+.btn{
+	background:#FFDAB9;
+	color: black;
+	padding: 10px 30px;
+	border-radius:3px;
+	cursor:pointer;
+}
+.card1{
+	height:250px;
+	border:2px solid black;
+}
+.card1 p{
+	font-size:20pt;
+}
+.card2{
+	height:250px;
+	border:2px solid black;
+}
+.card2 p{
+	
+}
+.card3{
+	height:250px;
+	border:2px solid black;
+}
+.card3 p{
+	
+}
+.Sign{
+	width:100%;
+	text-align:center;
+}
+.cards{
+	display:flex;
+	width:80%;
+	text-align:center;
+	margin:0 auto;
+}
+.otziv{
+	width:100%;
+}
+.KonchilasFantazia {
+	margin-top:4%;
+  padding: 38px 0;
+  color: #2f2f2f;
+  text-align: center;
+}
+.Ymenya{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.Ymenya1 {
+  width: 195px;
+  height: 3px;
+  background: #FFDAB9;
+  margin: 23px auto;
+}
+
+.Ymenya2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Ymenya3{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.Ymenya4 {
+	font-size:20px;
+  background: #f9f4f4;
+  padding: 28px;
+}
+.Ymenya4 img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.Ymenya5{
+  font-size: 23px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.Ymenya6{
+  color: #53b32b;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:960px) {
+.Ymenya3{
+  flex: 100%;
+  max-width: 80%;
+}
+}
+
+@media screen and (max-width:600px) {
+.Ymenya3{
+  flex: 100%;
+  max-width: 100%;
+}
+}
